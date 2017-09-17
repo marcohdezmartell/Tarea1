@@ -26,7 +26,7 @@ public class Cazador extends Figura{
             distancia = calcuDistancia(this.x, this.y, reflexion[i].x, reflexion[i].y);
             if(distancia<mejor){
                 mejor = distancia;
-                mejorObj1 = reflexion[i];
+                mejorObj = reflexion[i];
             }
         }
         return mejorObj;
